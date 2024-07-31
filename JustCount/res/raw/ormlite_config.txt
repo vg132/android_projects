@@ -1,0 +1,32 @@
+#
+# generated on 2013/04/28 12:18:47
+#
+# --table-start--
+dataClass=com.vgsoftware.android.justcount.dataabstraction.Count
+tableName=count
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=startDate
+# --field-end--
+# --field-start--
+fieldName=endDate
+# --field-end--
+# --field-start--
+fieldName=counter
+# --field-end--
+# --field-start--
+fieldName=countdown
+# --field-end--
+# --field-start--
+fieldName=target
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

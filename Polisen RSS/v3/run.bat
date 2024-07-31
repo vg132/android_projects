@@ -1,0 +1,1 @@
+java -classpath "c:\Dropbox\Projects\Android\PolisenRSS\libs\ormlite-core-4.41.jar;c:\Dropbox\Projects\Android\PolisenRSS\;.;C:\Dropbox\Projects\Android\Test\bin;C:\Dropbox\Projects\Android\PolisenRSS\libs\ormlite-android-4.41.jar;C:\Dropbox\Projects\Android\PolisenRSS\bin\classes" DatabaseConfigUtil

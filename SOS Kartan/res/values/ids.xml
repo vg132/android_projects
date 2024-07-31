@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="id" name="eventListView" />
+	<item type="id" name="eventMap" />
+	
+	<item type="id" name="mapContainer" />
+	<item type="id" name="countyList" />
+
+	<item type="id" name="eventHeading" />
+	<item type="id" name="eventTime" />
+	<item type="id" name="eventCounty" />
+	<item type="id" name="eventLocation" />
+	
+	<item type="id" name="menuMapView" />
+	<item type="id" name="menuListView" />
+</resources>

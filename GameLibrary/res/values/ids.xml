@@ -1,0 +1,22 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item name="ad_view" type="id"/>
+    <item name="menu_add_game" type="id"/>
+    <item name="menu_done" type="id"/>
+    <item name="pager" type="id"/>
+    <item name="pager_title_strip" type="id"/>
+    <item name="menu_scan_game" type="id"/>
+    <item name="thumbnail_container" type="id"/>
+    <item name="autocomplete_game_title" type="id"/>
+    <item name="edit_publisher" type="id"/>
+    <item name="edit_developer" type="id"/>
+    <item name="edit_comment" type="id"/>
+    <item name="menu_save_game" type="id"/>
+    <item name="autocomplete_developer" type="id"/>
+    <item name="autocomplete_publisher" type="id"/>
+    <item name="menu_delete" type="id"/>
+    <item name="menu_select_all" type="id"/>
+    <item name="menu_about" type="id"/>
+    <item name="menu_report" type="id" />
+
+</resources>

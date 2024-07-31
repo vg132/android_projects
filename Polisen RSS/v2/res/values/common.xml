@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Common_Yes">Yes</string>
+	<string name="Common_No">No</string>
+	<string name="Common_OK">OK</string>
+	<string name="Common_Cancel">Cancel</string>
+	<string name="Common_Save">Save</string>
+	<string name="Common_Delete">Delete</string>
+	<string name="Common_Edit">Edit</string>
+</resources>

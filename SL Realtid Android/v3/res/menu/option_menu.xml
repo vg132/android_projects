@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/MenuItemGroupViews">
+		<item android:id="@+id/MenuItemTrafficSituationId"
+			android:icon="@drawable/ic_menu_info_details"
+			android:title="@string/MenuItemTrafficSituation" />
+		<item android:id="@+id/MenuItemCloseToMeViewId"
+			android:icon="@drawable/ic_menu_mylocation"
+			android:title="@string/MenuItemCloseToMeView" />
+		<item android:id="@+id/MenuItemFavoriteViewId"
+			android:icon="@drawable/ic_menu_star"
+			android:title="@string/MenuItemFavoriteView" />
+	</group>
+	<group>
+		<item android:id="@+id/MenuItemPreferencesId"
+			android:icon="@drawable/ic_menu_preferences"
+			android:title="@string/MenuItemPreferences" />
+		<item android:id="@+id/MenuItemSaveSearchId"
+			android:icon="@drawable/ic_menu_save"
+			android:title="@string/MenuItemSaveSearch" />
+	</group>
+</menu>

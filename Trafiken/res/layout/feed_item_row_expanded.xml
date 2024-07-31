@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:background="#ffffff">
+	<TextView android:id="@id/feedItemDateTextView"
+		style="@style/TextView.Micro"
+		android:layout_marginTop="@dimen/padding_medium" />
+	<TextView android:id="@id/feedItemHeadingTextView"
+		style="@style/TextView.Medium" />
+	<TextView android:id="@id/feedItemDescriptionTextView"
+		style="@style/TextView.Small" />
+	<TextView android:id="@id/feedItemReadMoreTextView"
+		style="@style/TextView.ReadMore"
+		android:layout_marginBottom="@dimen/padding_medium"
+		android:text="@string/feed_item_read_more" />
+</LinearLayout>

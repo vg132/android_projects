@@ -1,0 +1,145 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vgsoftware.android.realtime"
+    android:installLocation="auto"
+    android:versionCode="107"
+    android:versionName="4.4.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name="com.vgsoftware.android.realtime.SLRealtidApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity
+            android:name=".ui.SLRealTimeActivity"
+            android:label="@string/title_activity_slrealtime"
+            android:launchMode="singleTask" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+<!-- 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.DepartureActivity"
+            android:launchMode="singleTask" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/internal_searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.widget.configuration.TrafficStatusConfiguration" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.widget.configuration.DepartureConfiguration"
+            android:windowSoftInputMode="stateVisible" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vgsoftware.android.realtime.test.TestActivity"
+            android:label="@string/title_activity_slrealtime"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:launchMode="singleInstance" />
+
+        <service
+            android:name=".service.WidgetRemoteViewsService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <service android:name=".service.WidgetUpdateService" />
+
+        <provider
+            android:name=".search.StationContentProvider"
+            android:authorities="com.vgsoftware.android.realtime.search.StationContentProvider"
+            android:exported="true" >
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".search.StationContentProvider" />
+        </provider>
+
+        <receiver
+            android:name=".ui.widget.DepartureProvider"
+            android:label="SL Realtid - Avgångar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_departure_provider" />
+        </receiver>
+        <receiver
+            android:name=".ui.widget.FavoriteListProvider"
+            android:label="SL Realtid - Favoriter" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_favorite_list_provider" />
+        </receiver>
+        <receiver
+            android:name=".ui.widget.TrafficStatusProvider"
+            android:label="SL Realtid - Trafikläget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_traffic_status_provider" />
+        </receiver>
+    </application>
+
+</manifest>

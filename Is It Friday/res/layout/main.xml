@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/NoLinearLayout"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">		
+		<TextView android:id="@+id/No"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:text="@string/No"
+			android:textColor="#ff0000"
+			android:textSize="140sp"
+			android:gravity="center" />
+		<TextView android:id="@+id/MessageTextView"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#0000ff"
+			android:textSize="35sp"
+			android:gravity="center" />
+		<TextView android:id="@+id/Countdown"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:textColor="#ff0000"
+			android:textSize="14sp"
+			android:gravity="center" />
+	</LinearLayout>
+	<LinearLayout android:id="@+id/YesLinearLayout"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView android:id="@+id/Yes"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:text="@string/Yes"
+			android:textColor="#00ff00"
+			android:textSize="140sp"
+			android:gravity="center" />
+		<TextView android:id="@+id/YesMessageTextView"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#0000ff"
+			android:textSize="30sp"
+			android:gravity="center" />
+	</LinearLayout>
+</LinearLayout>

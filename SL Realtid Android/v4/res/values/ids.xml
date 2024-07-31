@@ -1,0 +1,31 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- View Ids -->
+    <item name="ad_view" type="id"/>
+    <item name="container" type="id"/>
+    <item name="container_loading" type="id"/>
+    <item name="container_no_network" type="id"/>
+    <item name="spinner" type="id"/>
+    <item name="empty_list_view" type="id"/>
+
+    <!-- Departure List Item Row -->
+    <item name="destination" type="id"/>
+    <item name="time_to_departure" type="id"/>
+    <item name="departure_time_heading" type="id"/>
+    <item name="departure_time" type="id"/>
+    <item name="delay_heading" type="id"/>
+    <item name="delay_departure_time" type="id"/>
+
+    <!-- Menu items -->
+    <item name="menu_search" type="id"/>
+    <item name="menu_settings" type="id"/>
+    <item name="menu_donation" type="id"/>
+    <item name="menu_save" type="id"/>
+    <item name="menu_view_on_map" type="id"/>
+    <item name="menu_view_times" type="id"/>
+    <item name="menu_delete" type="id"/>
+    <item name="menu_about" type="id"/>
+    <item name="menu_debug_buy" type="id"/>
+    <item name="menu_debug_return" type="id"/>
+
+</resources>

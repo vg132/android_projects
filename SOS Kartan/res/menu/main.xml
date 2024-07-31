@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@id/menuMapView"
+		android:icon="@drawable/ic_menu_mapmode"
+		android:title="@string/menuMapView" />
+
+	<item android:id="@id/menuListView"
+		android:icon="@drawable/ic_menu_list"
+		android:title="@string/menuListView" />
+</menu>

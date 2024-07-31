@@ -1,0 +1,34 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="action_settings">Kalle Anka</string>
+    <string name="dialog_about_title">About GameLibrary</string>
+    <string name="dialog_about_message">Developed by VG Software\n\n
+Thanks to GiantBomb for API access (http://www.giantbomb.com/)</string>
+    <string name="app_name">Game Library</string>
+    <string name="addgame_scan_button">Scan barcode</string>
+    <string name="menu_add_game">Add game</string>
+    <string name="menu_scan_game">Scan game</string>
+    <string name="menu_done">Done</string>
+    <string name="game_title">Game title</string>
+    <string name="content_description_game_thumbnail">Game thumbnail</string>
+    <string name="scan_game_barcode">Scan game barcode</string>
+    <string name="title_not_found">Title not found</string>
+    <string name="edit_game_select_platform">Select platform</string>
+    <string name="edit_game_comment">Comment</string>
+    <string name="edit_game_manufacturer">Manufacturer</string>
+    <string name="edit_game_title">Title</string>
+    <string name="addgame_not_found_alert_title">Game not found</string>
+    <string name="addgame_not_found_alert_message">The game could not be identified.\n\nUse the search function to find the game.</string>
+    <string name="addgame_title">Add game</string>
+    <string name="addgame_comment">Comment</string>
+    <string name="menu_save_game">Save</string>
+    <string name="game_developer">Developer</string>
+    <string name="game_publisher">Publsher</string>
+    <string name="toast_game_saved">Game saved</string>
+    <string name="toast_game_not_found">Game not found</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_select_all">Select all</string>
+    <string name="menu_about">About</string>
+    <string name="menu_report">Report missing game</string>
+
+</resources>

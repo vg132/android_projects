@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@android:id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.vgsoftware.android.gamelibrary.ui.controls.GameTitleAutoCompleteTextView
+                android:id="@id/autocomplete_game_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/game_title"
+                android:imeOptions="actionNext"
+                android:inputType="textCapSentences"
+                android:singleLine="true" />
+
+            <ProgressBar
+                android:id="@android:id/progress"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@android:id/text1"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_game_select_platform" />
+
+        <com.vgsoftware.android.gamelibrary.ui.controls.CompanyAutoCompleteTextView
+            android:id="@id/autocomplete_developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/game_developer"
+            android:imeOptions="actionNext"
+            android:inputType="textCapSentences"
+            android:singleLine="true" />
+
+        <com.vgsoftware.android.gamelibrary.ui.controls.CompanyAutoCompleteTextView
+            android:id="@id/autocomplete_publisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/game_publisher"
+            android:imeOptions="actionNext"
+            android:inputType="textCapSentences"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@id/edit_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/addgame_comment"
+            android:imeOptions="normal"
+            android:inputType="textCapSentences" />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/api_key_admob" />
+
+</LinearLayout>

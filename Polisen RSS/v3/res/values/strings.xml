@@ -1,0 +1,46 @@
+<resources>
+
+	<string name="common_ok">OK</string>
+	<string name="app_name">Polisen RSS</string>
+	<string name="menu_settings">Inställningar</string>
+	<string name="title_activity_polisen_rss">Polisen RSS</string>
+	<string name="feed_item_read_more"><u>Läs mer</u></string>
+	<string name="service_notification_title">%s nyheter</string>
+	<string name="service_notification_title_single">%s nyhet</string>
+	<string name="service_notification_ticker">Senaste: %s</string>
+	<string name="activity_polisen_rss_changes_title">Nyheter</string>
+	<string name="activity_polisen_rss_changes_summary">3.1.2: Fixat bug som förhindrade hämtning av information från Polisen.\n\n
+3.1: Lagt till två nya flöden, press och publikationer. Lagt till möjligheten att bara välja de flöden som är intressanta. Optimerat för att minska datamängden som laddas ner vid uppdateringar.\n\n
+3.0: Helt omskriven app, inga gamla inställningar finns sparade från den gamla versionen. Inställning för vilka regioner som är intressanta görs under inställningar. </string>
+	<string name="activity_preferences_title">Inställningar</string>
+	<string name="activity_preferences_region_title">Flöden och Regioner</string>
+	<string name="activity_preferences_region_all_title">All regioner</string>
+	<string name="activity_preferences_region_all_summary">Visa nyheter för hela landet</string>
+	<string name="activity_preferences_region_select_title">Välj regioner</string>
+	<string name="activity_preferences_feed_all_title">Alla flöden</string>
+	<string name="activity_preferences_feed_all_summary">Visa nyheter från alla flöden</string>
+	<string name="activity_preferences_feed_select_title">Välj flöden</string>
+	<string name="activity_preferences_feed_all_selected">Alla flöden</string>
+	<string name="activity_preferences_feed_all_notselected">Valda flöden</string>
+	<string name="activity_preferences_region_all_selected">Alla regioner</string>
+	<string name="activity_preferences_region_all_notselected">Valda regioner</string>
+	<string name="activity_preferences_notification_title">Notifikationer</string>
+	<string name="activity_preferences_notification_enabled_title">Visa notifikationer</string>
+	<string name="activity_preferences_notification_enabled_summary">Visa när nyheter tas emot</string>
+	<string name="activity_preferences_notification_sound_title">Ringsignal</string>
+	<string name="activity_preferences_notification_vibrate_title">Vibrera</string>
+	<string name="activity_preferences_sync_type_dialog_title">Välj</string>
+	<string name="activity_preferences_sync_type_title">Välj typ av uppdatering</string>
+	<string name="activity_preferences_sync_title">Automatisk uppdatering</string>
+
+	<string-array name="activity_preferences_sync_type_entries">
+		<item>Vid nya händelser</item>
+		<item>Vid programstart</item>
+		<item>Aldrig</item>
+	</string-array>
+	<string-array name="activity_preferences_sync_type_entry_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+</resources>

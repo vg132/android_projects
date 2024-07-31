@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff"
+	android:paddingLeft="5px"
+	android:paddingRight="5px">
+	<com.vgsoftware.android.polisen.ui.controls.CategorySpinner
+		android:id="@+id/CategorySpinner"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:prompt="@string/CategorySpinner" /> 
+	<com.vgsoftware.android.polisen.ui.controls.FeedSpinner
+		android:id="@+id/FeedSpinner"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+		android:prompt="@string/FeedSpinner" />
+	<com.vgsoftware.android.polisen.ui.controls.FeedItemListView
+		android:id="@+id/FeedItemListView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+</LinearLayout>

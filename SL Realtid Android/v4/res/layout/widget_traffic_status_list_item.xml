@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_selector_background_light" >
+
+    <RelativeLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true" >
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:paddingLeft="8dp"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textIsSelectable="false"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@android:id/text2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@android:id/text1"
+            android:layout_below="@android:id/text1"
+            android:clickable="false"
+            android:focusable="false"
+            android:paddingLeft="8dp"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textIsSelectable="false" />
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/expandable_heading_list_item_image_description"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:paddingRight="8dp" />
+    </RelativeLayout>
+
+</LinearLayout>

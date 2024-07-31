@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<item type="id" name="feedItemDateTextView" />
+	<item type="id" name="feedItemHeadingTextView" />
+	<item type="id" name="feedItemDescriptionTextView" />
+	<item type="id" name="mainTitlePageIndicator" />
+	<item type="id" name="mainViewPager" />
+	<item type="id" name="feedItemReadMoreTextView" />
+	<item type="id" name="cameraGallery" />
+	<item type="id" name="cameraPreview" />
+	<item type="id" name="areaListView" />
+	<item type="id" name="areaNameTextView" />
+</resources>

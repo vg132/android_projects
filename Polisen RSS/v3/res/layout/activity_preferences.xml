@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/activity_preferences_title">
+	<PreferenceCategory android:title="@string/activity_preferences_region_title">
+		<PreferenceScreen android:key="preferences_key_feed_select"
+			android:title="@string/activity_preferences_feed_select_title">
+			<CheckBoxPreference
+				android:title="@string/activity_preferences_feed_all_title"
+				android:key="preferences_key_feed_all"
+				android:summary="@string/activity_preferences_feed_all_summary"
+				android:defaultValue="true"
+				android:disableDependentsState="true" />
+		</PreferenceScreen>
+		<PreferenceScreen android:key="activity_preferences_region_select"
+			android:title="@string/activity_preferences_region_select_title">
+			<CheckBoxPreference 
+				android:title="@string/activity_preferences_region_all_title"
+				android:key="preferences_key_region_all"
+				android:summary="@string/activity_preferences_region_all_summary"
+				android:defaultValue="true"
+				android:disableDependentsState="true" />
+		</PreferenceScreen>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/activity_preferences_notification_title">
+		<CheckBoxPreference
+			android:key="preferences_key_notification_show"
+			android:summary="@string/activity_preferences_notification_enabled_summary"
+			android:title="@string/activity_preferences_notification_enabled_title"
+			android:defaultValue="true" />
+		<CheckBoxPreference 
+			android:key="preference_key_notification_sound"
+			android:dependency="preferences_key_notification_show"
+			android:title="@string/activity_preferences_notification_sound_title"
+			android:defaultValue="false" />
+		<CheckBoxPreference 
+			android:key="preference_key_notification_vibrate"
+			android:dependency="preferences_key_notification_show"
+			android:title="@string/activity_preferences_notification_vibrate_title"
+			android:defaultValue="false" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/activity_preferences_sync_title">
+		<ListPreference
+			android:key="preference_key_sync"
+			android:title="@string/activity_preferences_sync_type_title"
+			android:dialogTitle="@string/activity_preferences_sync_type_dialog_title"
+			android:entries="@array/activity_preferences_sync_type_entries"
+			android:entryValues="@array/activity_preferences_sync_type_entry_values"
+			android:defaultValue="0" />
+	</PreferenceCategory>
+</PreferenceScreen>

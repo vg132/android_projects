@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="google_analytics_id">UA-4475826-5</string>
+	<string name="facebook_application_id">149206518487893</string>
+
+	<string-array name="facebook_application_permissions">
+		<item>publish_checkins</item>
+	</string-array>	
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference android:key="@string/Preferences_UseGPS_Id"
+		android:title="@string/Preferences_UseGPS_Title"
+		android:summary="@string/Preferences_UseGPS_Summary"
+		android:defaultValue="true" />
+	<CheckBoxPreference android:key="@string/Preferences_ShowMessageDialog_Id"
+		android:title="@string/Preferences_ShowMessageDialog_Title"
+		android:summary="@string/Preferences_ShowMessageDialog_Summary"
+		android:defaultValue="true" />
+</PreferenceScreen>

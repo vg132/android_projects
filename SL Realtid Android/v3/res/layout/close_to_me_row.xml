@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@android:color/white"
+	android:shrinkColumns="1"
+	android:padding="3dip">
+	<TableRow>
+		<com.vgsoftware.android.realtime.ui.controls.TransportationTypeImageView
+			android:id="@id/imageView"
+			android:paddingRight="5dip" />
+		<TextView android:id="@id/textView"
+			style="@style/RowLabel.Heading" />	
+		<TextView android:id="@id/textView2"
+			android:gravity="right"
+			android:paddingRight="15px"
+			android:layout_weight="1"
+			android:singleLine="true"
+			style="@style/RowLabel.Heading" />
+	</TableRow>
+</TableLayout>

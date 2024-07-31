@@ -1,0 +1,1 @@
+java -classpath "c:\Dropbox\Projects\Android\Trafiken\libs\ormlite-core-4.41.jar;c:\Dropbox\Projects\Android\Trafiken\;.;C:\Dropbox\Projects\Android\Test\bin;C:\Dropbox\Projects\Android\Trafiken\libs\ormlite-android-4.41.jar;C:\Dropbox\Projects\Android\Trafiken\bin\classes" DatabaseConfigUtil

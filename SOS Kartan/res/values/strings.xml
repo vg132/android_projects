@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">SOS Kartan</string>
+	<string name="notificationTitleSingular">{0} ny händelse</string>
+	<string name="notificationTitle">{0} nya händelser</string>
+
+	<string-array name="countyNames">
+		<item>Alla län</item>
+		<item>Stockholms län</item>
+		<item>Uppsala län</item>
+		<item>Södermanlands län</item>
+		<item>Östergötlands län</item>
+		<item>Jönköpings län</item>
+		<item>Kronobergs län</item>
+		<item>Kalmar län</item>
+		<item>Gotlands län</item>
+		<item>Blekinge län</item>
+		<item>Skåne län</item>
+		<item>Hallands län</item>
+		<item>Västra Götalands län</item>
+		<item>Värmlands län</item>
+		<item>Örebro län</item>
+		<item>Västmanlands län</item>
+		<item>Dalarnas län</item>
+		<item>Gävleborgs län</item>
+		<item>Västernorrlands län</item>
+		<item>Jämtlands län</item>
+		<item>Västerbottens län</item>
+		<item>Norrbottens län</item>
+	</string-array>
+</resources>

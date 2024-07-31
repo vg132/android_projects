@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/white"
+	android:orientation="vertical">
+	<TableLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="0,2,4"
+		android:padding="0px"
+		android:layout_margin="0px"
+		android:background="#ffffff">
+		<TableRow android:padding="0px"
+			android:layout_margin="0px"
+			android:background="@drawable/top_background">
+			<TextView android:text="@string/app_name"
+				android:layout_span="5"
+				android:paddingLeft="10px"
+				style="@style/Label.Heading"
+				android:layout_weight="1"
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:layout_gravity="center_vertical"
+				android:gravity="center_vertical" />
+			<com.vgsoftware.android.fastcheckin.ui.controls.LoginButton
+				android:id="@+id/LogoutButton"
+				android:src="@drawable/login_button"
+				android:layout_height="wrap_content" android:layout_weight="1"/>
+		</TableRow>
+	</TableLayout>
+	<LinearLayout android:id="@+id/LoginLinearLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+		<TextView android:id="@+id/LoginTextView"
+			android:text="@string/login_message"
+			android:gravity="center_horizontal"
+			style="@style/Label.Large"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="30px"
+			android:layout_marginBottom="10px" />
+		<com.vgsoftware.android.fastcheckin.ui.controls.LoginButton
+			android:id="@+id/LoginButton"
+			android:src="@drawable/login_button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal" />
+	</LinearLayout>
+	<com.vgsoftware.android.fastcheckin.ui.controls.PlacesListView android:id="@+id/PlacesListViewControl"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:cacheColorHint="@drawable/white" />
+</LinearLayout>

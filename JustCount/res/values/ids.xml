@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<item type="id" name="endDateButton" />
+	<item type="id" name="nameEditView" />
+	<item type="id" name="countdownCheckbox" />
+	<item type="id" name="targetEditView" />
+	<item type="id" name="startEditView" />
+	<item type="id" name="saveButton" />
+	<item type="id" name="endDateTextView" />
+	<item type="id" name="clearDateButton" />
+</resources>

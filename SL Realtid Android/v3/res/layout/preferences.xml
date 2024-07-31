@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference android:key="@string/PreferencesDefaultTransportationType_Key"
+		android:title="@string/PreferencesDefaultTransportationTypeTitle"
+		android:dialogTitle="@string/PreferencesDefaultTransportationTypeDialogTitle"
+		android:defaultValue="1" />
+	<ListPreference android:key="@string/PreferencesStartupScreen_Key"
+		android:title="@string/PreferencesStartupScreenTitle"
+		android:entries="@array/PreferencesStartupScreenEntries"
+		android:entryValues="@array/PreferencesStartupScreenValues"
+		android:dialogTitle="@string/PreferencesStartupScreenDialogTitle"
+		android:defaultValue="0" />
+	<CheckBoxPreference android:key="@string/PreferencesEnableMyLocation_Key"
+		android:title="@string/PreferencesEnableMyLocation_Title"
+		android:defaultValue="true" />
+	<PreferenceScreen android:title="@string/PreferencesMyLocationPreferences_Title"
+		android:dependency="EnableMyLocation">
+		<CheckBoxPreference android:key="@string/PreferencesEnableMyLocationGPS_Key"
+			android:title="@string/PreferencesEnableMyLocationGPS_Title"
+			android:summary="@string/PreferencesEnableMyLocationGPS_Summary"
+			android:defaultValue="true" />
+		<EditTextPreference android:key="@string/PreferencesMyLocationDistance_Key"
+			android:title="@string/PreferencesMyLocationDistance_Title"
+			android:summary="@string/PreferencesMyLocationDistance_Summary"
+			android:inputType="number"
+			android:defaultValue="5" />
+	</PreferenceScreen>
+	<CheckBoxPreference android:key="@string/PreferencesShowShortDelays_Key"
+		android:title="@string/PreferencesShowShortDelays_Title"
+		android:summary="@string/PreferencesShowShortDelays_Summary"
+		android:defaultValue="false" />
+	<CheckBoxPreference android:key="@string/PreferencesShowArrivalTime_Key"
+		android:title="@string/PreferencesShowArrivalTime_Title"
+		android:summary="@string/PreferencesShowArrivalTime_Summary"
+		android:defaultValue="true" />
+</PreferenceScreen>

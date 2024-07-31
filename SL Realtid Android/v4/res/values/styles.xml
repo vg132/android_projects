@@ -1,0 +1,49 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="BannerAdView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="GoogleMap">
+        <item name="android:clickable">true</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+
+    <style name="Heading" parnet="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dip</item>
+        <item name="android:layout_marginLeft">6dip</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="RowLabel" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">normal</item>
+    </style>
+
+    <style name="RowLabel.Heading">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="RowLabel.SubHeading.Delay">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RowLabel.SubHeading">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

@@ -1,0 +1,1 @@
+java -classpath "c:\Dropbox\Projects\Java\Android\JustCount\libs\ormlite-core-4.41.jar;c:\Dropbox\Projects\Java\Android\JustCount\;.;C:\Dropbox\Projects\Java\Android\Test\bin;C:\Dropbox\Projects\Java\Android\JustCount\libs\ormlite-android-4.41.jar;C:\Dropbox\Projects\Java\Android\JustCount\bin\classes" com.vgsoftware.android.justcount.DatabaseConfigUtil

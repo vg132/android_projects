@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<string name="app_name">SL Realtid</string>
+ 	<string name="Type_Select">Välj trafikslag</string>
+ 	<string name="ShowTimes">Visa aktuella tider</string>
+ 	<string name="RealTimeTabName">Tider</string>
+ 	<string name="FavoriteTabName">Favoriter</string>
+ 	<string name="NoInformationText">Ingen information</string>
+ 	<string name="CommuterTrainUrl">http://www.sl.se/scripts/pendeltag/display.asp?number=</string>
+ 	<string name="RoslagsbanaUrl">http://www.sl.se/scripts/roslagsbanan/display.asp?number=</string>
+ 	<string name="SubwayUrl">http://www.sl.se/scripts/tunnelbanan/display.asp?number=</string>
+ 	<string name="ProgressDialogText">Söker, vänta...</string>
+ 	<string name="GoogleAnalyticsTrackerId">UA-4475826-3</string>
+ 	<string name="AboutSLRealTimeHeading">Om SL Realtid</string>
+ 	<string name="AboutSLRealTime">SL Realtid är utvecklat av Viktor Gars.\n\nAll data hämtas från www.sl.se</string>
+</resources>

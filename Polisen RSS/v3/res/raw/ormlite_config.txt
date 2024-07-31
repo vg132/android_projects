@@ -1,0 +1,78 @@
+#
+# generated on 2012/08/05 02:52:01
+#
+# --table-start--
+dataClass=com.vgsoftware.android.polisen.dataabstraction.Feed
+tableName=feed
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=url
+# --field-end--
+# --field-start--
+fieldName=active
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.vgsoftware.android.polisen.dataabstraction.FeedItem
+tableName=feeditem
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=feedId
+# --field-end--
+# --field-start--
+fieldName=title
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --field-start--
+fieldName=url
+# --field-end--
+# --field-start--
+fieldName=read
+# --field-end--
+# --field-start--
+fieldName=date
+# --field-end--
+# --field-start--
+fieldName=added
+# --field-end--
+# --field-start--
+fieldName=regionId
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.vgsoftware.android.polisen.dataabstraction.Region
+tableName=region
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=active
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

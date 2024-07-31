@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@id/actionBar"
+	style="@style/ActionBar">
+	<TableRow android:focusable="true" android:focusableInTouchMode="true">
+		<Button android:id="@id/transportationTypeButton"
+			android:layout_width="wrap_content"
+			android:layout_height="@dimen/transportationTypeButtonHeight"
+			android:drawableLeft="@drawable/subway"
+			android:gravity="left|center_vertical"
+			android:layout_marginTop="0dip"
+			android:layout_marginBottom="4dip" />
+		<com.vgsoftware.android.realtime.ui.controls.StationAutoCompleteTextView android:id="@id/stationTextView"
+			style="@style/ActionBarAutoCompleteTextView" />
+		<ImageButton android:id="@id/searchButton"
+			style="@style/ActionBarImageButton"
+			android:contentDescription="Search"
+			android:src="@drawable/title_search" />
+	</TableRow>
+</TableLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- FastCheckIn -->
+	<string name="app_name">Fast Check-In</string>
+	<string name="dialog_message_title">Message</string>
+	<string name="dialog_message_content">Enter a message for this check-in</string>
+	<string name="login_message">Log into your Facebook account to use Fast Check-In</string>
+	<string name="unable_to_list_places">Unable to refresh places list</string>
+	
+	<!-- Menus -->
+	<string name="FastCheckIn_Options_Menu_Preferences">Preferences</string>
+	<string name="FastCheckIn_Options_Menu_Refresh">Refresh</string>
+
+	<!-- Preferences -->
+	<string name="Preferences_UseGPS_Id">Preferences_UseGPS</string>
+	<string name="Preferences_UseGPS_Title">Use GPS</string>
+	<string name="Preferences_UseGPS_Summary">Use GPS for positioning if it\'s available</string>
+	
+	<string name="Preferences_ShowMessageDialog_Id">Preferences_ShowMessageDialog</string>
+	<string name="Preferences_ShowMessageDialog_Title">Show message dialog</string>
+	<string name="Preferences_ShowMessageDialog_Summary">Show the message dialog on check-in</string>
+	
+	
+	 <string-array name="mylistviewdata"> 
+        <item>"1952 Albert Schweitzer"</item> 
+        <item>"1954 UN Office for Refugees"</item> 
+        <item>"1962 Linus Pauling"</item> 
+        <item>"1964 Martin Luther King"</item> 
+        <item>"1975 Andrei Sakharov"</item> 
+        <item>"1978 Anwar Sadat &amp; Menachem Begin"</item> 
+        <item>"1977 Amnesty International"</item> 
+        <item>"1979 Mother Teresa"</item> 
+    </string-array> 
+	
+</resources>

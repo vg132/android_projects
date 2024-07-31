@@ -1,0 +1,7 @@
+<resources>
+	<string name="error_message_no_place_selected">Place select a place to check-in to</string>
+	<string name="error_message_no_location">Unable to get current location</string>
+	
+	<string name="success_message_check_in">You have been checked-in to \'%s\'</string>
+	<string name="error_message_check_in">Unable to check you into \'%s\'</string>
+</resources>

@@ -1,0 +1,12 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.vgsoftware.android.realtime.ui.widget.configuration.DepartureConfiguration"
+    android:initialKeyguardLayout="@layout/widget_departure_list"
+    android:initialLayout="@layout/widget_departure_list"
+    android:minHeight="110dp"
+    android:minWidth="250dp"
+    android:previewImage="@drawable/widget_departure_preview"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen|keyguard" >
+
+</appwidget-provider>

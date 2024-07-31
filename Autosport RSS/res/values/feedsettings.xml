@@ -1,0 +1,5 @@
+<resources>
+	<string name="FeedSettings_InvalidUrl">Invalid feed url</string>
+	<string name="FeedSettings_InvalidUrl_Hint">Hint: urls starts with http://</string>
+	<string name="FeedSettings_InvalidName">Please enter a name for the feed</string>
+</resources>

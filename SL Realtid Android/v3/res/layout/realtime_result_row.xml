@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:stretchColumns="1"
+	android:background="@android:color/white"
+	android:padding="3dip">
+	<TableRow>
+		<com.vgsoftware.android.realtime.ui.controls.TransportationTypeImageView
+			android:id="@+id/ResultRowIcon"
+			android:src="@drawable/train"
+			android:paddingRight="5dip"
+			android:layout_gravity="center_vertical" />
+		<TextView android:id="@+id/ResultRowDestination"
+			android:width="0dip"
+			style="@style/RowLabel.Heading" />
+		<TextView android:id="@+id/ResultRowTimeTableTime"
+			android:gravity="right"
+			android:paddingRight="15px"
+			style="@style/RowLabel.Heading" />
+	</TableRow>
+	<TableRow android:id="@+id/ResultRowExpectedTimeRow2"
+		android:layout_height="wrap_content">
+		<TextView android:id="@+id/ResultRowExpectedTimeText" 
+			android:text="@string/ResultRowExpectedTimeText"
+			android:layout_column="1"
+			style="@style/RowLabel.SubHeading" />
+		<TextView android:id="@+id/ResultRowExpectedTime" 
+			android:layout_column="2"
+			style="@style/RowLabel.SubHeading" /> 
+	</TableRow>
+</TableLayout>

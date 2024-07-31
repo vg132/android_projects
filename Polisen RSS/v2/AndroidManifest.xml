@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.vgsoftware.android.polisen.ui" android:versionCode="7" android:versionName="2.11">
+	<application android:icon="@drawable/polisen_logotype" android:label="@string/app_name">
+		<activity android:name=".Polisen" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:label="Preferences" android:name=".Preferences" />
+		<activity android:label="Feed Manager" android:name=".FeedManager" />
+		<activity android:label="Feed Settings" android:name=".FeedSettings" />
+		<activity android:label="Category Selector" android:name=".CategorySelector" />
+		<service android:enabled="true" android:name="com.vgsoftware.android.polisen.service.UpdateService" android:label="Polisen RSS Update Service" />
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-sdk android:minSdkVersion="7" />
+</manifest>

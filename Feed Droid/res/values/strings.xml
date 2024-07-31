@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Feed Droid</string>
+	<string name="FeedSpinner">Feeds</string>
+	<string name="ProgressDialogText">Loading please wait</string>
+	
+	<string name="FeedListView_ContextMenu_Heading">Feeds</string>
+	
+	<string name="FeedSettings_Name">Name</string>
+	<string name="FeedSettings_Location">Location</string>
+	<string name="FeedSettings_Active">Active</string>
+</resources>

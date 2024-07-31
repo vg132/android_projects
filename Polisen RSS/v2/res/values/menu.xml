@@ -1,0 +1,7 @@
+<resources>
+	<string name="Menu_FeedDroid_Preferences">Inställningar</string>
+	<string name="Menu_FeedDroid_FeedManager">Feed manager</string>
+	<string name="Menu_FeedManager_AddFeed">Lägg till feed</string>
+	<string name="Menu_FeedDroid_ForceUpdate">Ladda om</string>
+	<string name="Menu_FeedDroid_MarkAllRead">Markera alla som lästa</string>
+</resources>

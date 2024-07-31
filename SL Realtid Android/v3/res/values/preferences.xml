@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="PreferencesEnableMyLocation_Title">Använd \"Nära mig\"</string>
+	<string name="PreferencesMyLocationPreferences_Title">Inställningar för \"Nära mig\"</string>
+	<string name="PreferencesEnableMyLocation_Key">EnableMyLocation</string>
+
+	<string name="PreferencesEnableMyLocationGPS_Title">Använd GPS-satelliter</string>
+	<string name="PreferencesEnableMyLocationGPS_Summary">Plats fastställs med hjälp av GPS</string>
+	<string name="PreferencesEnableMyLocationGPS_Key">EnableMyLocationGPS</string>
+
+	<string name="PreferencesMyLocationDistance_Title">Maximalt avstånd</string>
+	<string name="PreferencesMyLocationDistance_Summary">Ange det maximala avståndet till stationer som listas under \"Nära mig\" (km)</string>
+	<string name="PreferencesMyLocationDistance_Key">MyLocationDistance</string>
+	
+	<string name="PreferencesShowShortDelays_Title">Visa sekund förseningar</string>
+	<string name="PreferencesShowShortDelays_Summary">Visa förseningar som är mindre än en minut</string>
+	<string name="PreferencesShowShortDelays_Key">ShowShortDelays</string>
+	
+	<string name="PreferencesShowArrivalTime_Title">Visa ny beräknad ankomsttid</string>
+	<string name="PreferencesShowArrivalTime_Summary">Visa förseningar genom en ny beräknad ankomsttid istället för minuters försening</string>
+	<string name="PreferencesShowArrivalTime_Key">ShowArrivalTime</string>
+	
+	<string name="PreferencesStartupScreenTitle">Välj startvy</string>
+	<string name="PreferencesStartupScreen_Key">StartupScreen</string>
+	<string name="PreferencesStartupScreenDialogTitle">Välj startvy</string>
+	
+	<string name="PreferencesCurrentSelection">Nuvarande val: %s</string>
+
+	<string-array name="PreferencesStartupScreenEntries">
+		<item>Realtid</item>
+		<item>Nära mig</item>
+		<item>Favoriter</item>
+	</string-array>
+	
+	<string-array name="PreferencesStartupScreenValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	
+	<string name="PreferencesDefaultTransportationTypeTitle">Välj förvalt trafikslag</string>
+	<string name="PreferencesDefaultTransportationType_Key">Default</string>
+	<string name="PreferencesDefaultTransportationTypeDialogTitle">Välj trafikslag</string>
+</resources>

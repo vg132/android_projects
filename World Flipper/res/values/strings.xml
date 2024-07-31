@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">World Flipper</string>
+	<string name="MapPromptLatitude">Latitude:</string>
+	<string name="MapPromptLongitude">Longitude:</string>
+	<string name="FlipWorldMenuText">Flip world</string>
+	<string name="MyLocationMenuText">My location</string>
+	<string name="FlipWorldLongitudeMenuText">Flip longitude</string>
+	<string name="FlipWorldLatitudeMenuText">Flip latitude</string>
+</resources>

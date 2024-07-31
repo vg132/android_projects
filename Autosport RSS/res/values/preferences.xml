@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Preferences_UpdateInterval_Title">Update interval</string>
+	<string name="Preferences_UpdateInterval_Summary">The update interval in minutes</string>
+
+	<string name="Preferences_EnableAutoUpdate_Title">Scheduled updates</string>
+	<string name="Preferences_EnableAutoUpdate_Summary">Update RSS feeds in the background and notify of any new items</string>
+
+	<string name="Preferences_EnableNotification_Title">Notification</string>
+	<string name="Preferences_EnableNotification_Summary">Show notification when new items arrive</string>
+
+	<string name="Preferences_Cleanup_Title">Cleanup</string>
+	<string name="Preferences_Cleanup_Summary">Set when items are deleted</string>
+
+	<string-array name="Preferences_Cleanup_Values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+	<string-array name="Preferences_Cleanup_Items">
+		<item>Never</item>
+		<item>After 1 day</item>
+		<item>After 1 week</item>
+		<item>After 1 month</item>
+	</string-array>
+
+	<string-array name="Preferences_UpdateIntervalValues">
+		<item>10</item>
+		<item>20</item>
+		<item>30</item>
+		<item>40</item>
+		<item>50</item>
+		<item>60</item>
+		<item>120</item>
+	</string-array>
+	<string-array name="Preferences_UpdateIntervalItems">
+		<item>10 minutes</item>
+		<item>20 minutes</item>
+		<item>30 minutes</item>
+		<item>40 minutes</item>
+		<item>50 minutes</item>
+		<item>60 minutes</item>
+		<item>120 minutes</item>
+	</string-array>
+</resources>

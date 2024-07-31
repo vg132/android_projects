@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string-array name="BillingDonationArray">
+		<item>7 kr</item>
+		<item>10 kr</item>
+		<item>15 kr</item>
+		<item>20 kr</item>
+		<item>25 kr</item>
+		<item>30 kr</item>			
+	</string-array>
+	<string name="BillingInformationText">
+Gillar du SL Realtid? Vill du slippa reklamen?
+\n\nGenom att betala för SL Realtid slipper du reklamen och stödjer den framtida utvecklingen av SL Realtid.
+Du kan själv välja hur mycket du tycker att SL Realtid är värt för dig och betala den summan.
+\n\nVälj hur mycket du vill betala för SL Realtid.
+	</string>
+	<string name="BillingDialogTitle">Köp SL Realtid</string>
+	<string name="BillingDialogButtonText">Köp</string>
+	<string name="BillingPurchaseCancelled">Köpet har avbrytits</string>
+	<string name="BillingPurchaseRefunded">Återköpet genomfört</string>
+	<string name="BillingPurchasePurchased">Köpet genomfört</string>
+</resources>

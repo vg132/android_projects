@@ -1,0 +1,158 @@
+<resources>
+
+    <string name="app_name">SL Realtid</string>
+    <string name="title_activity_slrealtime">SL Realtid</string>
+    <string name="common_loading">Laddar&#8230;</string>
+    <string name="common_no_network">Ingen internetåtkomst</string>
+    <string name="common_parser_error">Kunde inte hitta några avgångar</string>
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Avbryt</string>
+    <string name="common_yes">Ja</string>
+    <string name="common_no">Nej</string>
+
+    <!-- Widget -->
+    <string name="widget_icon_description">Ikon</string>
+    <string name="widget_favorite_heading">Favoriter</string>
+    <string name="widget_departure_configuration_heading">Välj station och trafikslag</string>
+    <string name="widget_departure_configuration_station">Station</string>
+    <string name="widget_departure_configuration_transportation_type">Trafikslag</string>
+    <string name="widget_traffic_status_list_heading">Trafikläget</string>
+    <string name="widget_traffic_status_configuration_heading">Välj trafikslag</string>
+    <string name="widget_traffic_status_configuration_none_selected">Minst ett trafikslag måste väljas</string>
+    <string name="widget_favorite_empty_list">Inga favoriter</string>
+    <string name="widget_departure_configuration_autoupdate">Automatisk uppdatering</string>
+    <string name="widget_departure_configuration_station_not_found">Kan inte hitta stationen</string>
+    <string name="widget_departure_empty_list">Inga avgångar</string>
+    <string name="widget_departure_refresh_description">Ladda om</string>
+    <string name="widget_departure_heading">Avgångar</string>
+    <string name="widget_departure_information">Välj station och trafikslag, tiderna kommer automatiskt att uppdateras verje minut när skärmen är påslagen.</string>
+    <string name="widget_traffic_status_information">Välj de trafikslag som är intressanta statusen kommer automatiskt att uppdateras var 10:e minut när skärmen är påslagen.</string>
+
+    <!-- Avgångar Gruppnamn -->
+    <string name="departure_train_south">Södergående tåg mot:</string>
+    <string name="departure_train_north">Norrgående tåg mot:</string>
+    <string name="departure_subway_blue">Blå linje mot:</string>
+    <string name="departure_subway_red">Röd linje mot:</string>
+    <string name="departure_subway_green">Grön linje mot:</string>
+    <string name="departure_bus">Bus mot:</string>
+    <string name="departure_tram">Mot:</string>
+    <string name="departure_unknown">Mot:</string>
+
+    <!-- Search -->
+    <string name="search_description">Realtidsinformation från SL</string>
+    <string name="search_hint">Sök station</string>
+    <string name="search_no_area">[Inget område]</string>
+
+    <!-- Tabs -->
+    <string name="tab_trafficstatus">Trafikläget</string>
+    <string name="tab_favorites">Favoriter</string>
+    <string name="tab_closetome">Nära mig</string>
+
+    <!-- Menu items -->
+    <string name="menu_search">Sök</string>
+    <string name="menu_settings">Inställningar</string>
+    <string name="menu_donation">Köp</string>
+    <string name="menu_save">Spara</string>
+    <string name="menu_about">Om</string>
+    <string name="menu_view_times">Visa tider</string>
+    <string name="menu_view_on_map">Visa på karta</string>
+    <string name="menu_delete">Ta bort</string>
+    <string name="menu_debug_buy">DEBUG - Köp</string>
+    <string name="menu_debug_return">DEBUG - Ångra köp</string>
+
+    <!-- Favorites Fragment -->
+    <string name="fragment_favorites_searches">Senaste sökningar</string>
+    
+    <!-- Realtime Fragment -->
+    <string name="listview_row_departure_deviation">Ny beräknad ankomsttid</string>
+    <string name="listview_row_departure_time">Ankomsttid</string>
+    <string name="listview_row_departure_filter">Dölj</string>
+
+    <!-- Traffic Status Fragment -->
+    <string name="fragment_traffic_status_heading">Trafikläget klockan %s</string>
+
+    <!-- Close To Me Fragment -->
+    <string name="fragment_close_to_me_heading">Närliggande stationer</string>
+    <string name="fragment_close_to_me_subheading">(ej busshållplatser)</string>
+    <string name="fragment_close_to_me_item_subheading">Avstånd: %skm</string>
+    
+    <!-- Expandable heading list item -->
+    <string name="expandable_heading_list_item_image_description">Status</string>
+    <string name="dialog_donation_information">Gillar du SL Realtid? Vill du slippa reklamen?
+\n\nGenom att betala för SL Realtid slipper du reklamen och stödjer den framtida utvecklingen av SL Realtid.
+\nDu får även tillgång till en widget som du kan använda för att visa avångar direkt på hemskärmen eller låsskärmen i din telefon.
+\n\nVälj nedan hur mycket du vill betala för SL Realtid</string>
+    <string name="dialog_donation_title">Köp SL Realtid</string>
+    <string name="dialog_donation_button">Köp</string>
+    <string name="dialog_donation_cancelled">Köpet har avbrytits</string>
+    <string name="dialog_donation_refunded">Återköpet genomfört</string>
+    <string name="dialog_donation_purchased">Köpet genomfört</string>
+
+    <!-- Settings -->
+    <string name="settings_heading_search_time">Sökning och tider</string>
+    <string name="settings_show_subway">Visa tunnelbana</string>
+    <string name="settings_show_train">Visa pendeltåg</string>
+    <string name="settings_show_tram">Visa lokalbana</string>
+    <string name="settings_show_bus">Visa bussar</string>
+    <string name="settings_heading_show">Visning</string>
+    <string name="settings_departure_time_as_time_summary">Visa klockslag för avgångstid istället för tid kvar till avgång</string>
+    <string name="settings_hide_short_delays_summary">Döljer förseningar som är kortare än en minut</string>
+    <string name="settings_start_tab_title">Startvy</string>
+    <string name="settings_start_tab_summary">Välj den vy som ska visas när appen startar</string>
+    <string name="settings_use_gps">Använd GPS</string>
+    <string name="settings_use_gps_summary">Använd GPS för att fastställa telefonens position</string>
+    <string name="settings_heading_widget">Widget</string>
+    <string name="settings_widget_screen">Inställningar för Widgets</string>
+    <string name="settings_widget_favorites">Favoriter</string>
+    <string name="settings_widget_traffic_status">Trafikläget</string>
+    <string name="settings_widget_departure">Realtid</string>
+
+    <!-- Toast -->
+    <string name="toast_favorite_saved">Sparad</string>
+    <string name="toast_favorite_saved_error">Kunde inte spara</string>
+    <string name="toast_station_not_found">Kunde inte ladda stationen</string>
+
+    <!-- Changes Dialog -->
+    <string name="dialog_changes_title">Nyheter</string>
+    <string name="dialog_changes_message">4.3.3: Små GUI förbättringar, \"dra för att ladda om\" t.ex.
+\n\n4.3.2: Uppdaterat API för störningsinformation.
+\n\n4.3.1: Uppdaterat vissa API anropp. Ursäkta störningen som har varit.
+\n\n4.3.0: Designförändringar av framförallt avgångslistan. Favoritlistan listar nu senaste sökningarna om man ej har skapat några favoriter.
+\n\n4.2.1: Fix för sökning av station utan att välja alternativ i förslagslistan.
+\n\n4.2.0: Implementerat nytt API för att hämta avgångar och tider från SL. Kommer framförallt att vara förbättringar för Tunnelbanan.
+\n\n4.1.7: Lagt till stöd för sju nya stationer på tvärbanan. Dock inga kordinater för dessa stationer så de kommer inte att visas under \"Nära mig\".
+\n\n4.1.6: Bugfix för bug som kom med i version 4.1.5.
+\n\n4.1.5: Små fixar och snyggare dialoger.
+\n\n4.1.4: Mer bugfixar
+\n\n4.1.3: Lite bugfixar.
+\n\n4.1.2: De 10 senaste sökningarna dyker upp i söklistan direkt innan sökningen är påbörjad.
+\n\n4.1.1: Förbättrad stationssökningen och inläsningen av tider. Valt transportsätt sparas för varje station.
+\n\n4.1.0: Skapat widgets för favoriter och trafikläget, för den som betalat finns även en widget för avångar. Avgångar är nu grupperade efter linje/riktning/hållplats.
+\n\n4.0.7: Ännu lite fler buggar fixade.
+\n\n4.0.6: Liter fler buggar fixade.
+\n\n4.0.5: Flera bug och stabilitets fixar.
+\n\n4.0.4: Fixat problem med sökning efter stationer med mellanslag.
+\n\n4.0.3: Fixat problem med att tunnelbanan inte visar alla avgångar.
+\n\n4.0.2: Aktiverat köp igen och fixat några små buggar.
+\n\n4.0.1: Temporärt tagit bort möjligheten att köpa SL Realtid.
+\n\n4.0.0: Helt ny app omskriven från grunden för Android 4.0 och nyare. Några av nyheterna, betydligt bättre stöd för bussar, alla nya pendeltågsstationer finns med, \"pull-to-refresh\" på resultatsidan etc.
+\n\n3.2.2: Tre nya pendeltågsstationer, Knivsta, Arlanda och Uppsala.
+\n\n3.2: Visar fler avgångar för alla trafikslag utom Tunnelbana. Ny ikon.
+\n\n3.1.4: Förändrat trafikslagen, under \"Lokalbana\" finns nu Tvärbanan, Roslagsbanan, Lidingöbanan, Nockebybanan och Saltsjöbanan. Spårväg City finns under trafikslaget \"Spårvagn\"
+\n\n3.1.3: Man kan nu se de närmaste (och alla andra) stationer på en karta, välj \"Nära mig\" och därefter i menyn \"Kartvy\".
+\n\n3.1.2: Förbättrad felhantering. Skapat Facebook sida för SL Realtid.
+\n\n3.1.1: Förbättrad sökning med blandade gemener och versaler. Fixat bug som förhindrade Nära mig att starta.
+\n\n3.1.0: Ny action bar för sökning, ger mer yta för sökresultatet. Små design fixar för nära mig listan. Sökning på stationer där det bara finns ett trafikslag ger resultat även fast fel trafikslag är valt. Flera småfixar. 
+\n\n3.0.9: Gått tillbaka med en av nyheterna i 3.0.5, sökning med blandade gemener och versaler, den lösning som var implementerad verkar inte fungera i vissa telefoner.
+\n\n3.0.8: Fix för bug i förra versionen som förhindrade sökning.
+\n\n3.0.7: Fix för busssökningar, när man väljer en station i resultatlistan sker sökningen direkt igen.
+\n\n3.0.6: Inget nytt förutom lite information, favoriter som är sparade i tidigare versioner av SL Realtid (före 3.0.5) fungerar inte längre utan måste skapas igen, detta pga en bug i tidigare versioner av SL Realtid. 
+\n\n3.0.5: Lagt till reklam. För att bli av med reklamen kan du betala för SL Realtid. Välj Köp knappen i menyn.
+\nFörbättrad sökning av stationer, inte längre känslig för gemener och versaler.
+\nFlera små förbättringar i gränssnittet för framförallt telefoner med mindre skärmar.
+\n\n3.0.4: Optimeringar för telefoner med mindre skärmar, t.ex. Xperia X10 Mini.
+\n\n3.0.3: Ny favoritlista, fix för krash när man söker efter bussar.
+\n\n3.0.2: Fix för krash när man ändrade förvald transporttyp.
+\n\n3.0: Stöd för Bussar och Spårväg City. Lagt till en ny funktion så att om du gillar applikationen kan du betala en liten summa för att stödja utvecklingen av SL Realtid.</string>
+
+</resources>

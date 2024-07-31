@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/FastCheckIn_Menu_Refresh"
+		android:icon="@drawable/ic_menu_refresh"
+		android:title="@string/FastCheckIn_Options_Menu_Refresh" />
+	<item android:id="@+id/FastCheckIn_Menu_Preferences"
+		android:icon="@android:drawable/ic_menu_preferences"
+		android:title="@string/FastCheckIn_Options_Menu_Preferences" />
+</menu>

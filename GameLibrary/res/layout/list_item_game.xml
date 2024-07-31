@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:id="@id/thumbnail_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:contentDescription="@string/content_description_game_thumbnail" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@android:id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/thumbnail_container"
+        android:layout_toRightOf="@id/thumbnail_container"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@android:id/text2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@android:id/text1"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@id/thumbnail_container"
+        android:textColor="#5a5a5a"
+        android:textSize="12sp" />
+
+</RelativeLayout>

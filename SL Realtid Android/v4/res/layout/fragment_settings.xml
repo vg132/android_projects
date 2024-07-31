@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/settings_heading_search_time" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ShowTrain"
+            android:title="@string/settings_show_train" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ShowTram"
+            android:title="@string/settings_show_tram" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ShowSubway"
+            android:title="@string/settings_show_subway" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ShowBus"
+            android:title="@string/settings_show_bus" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_heading_show" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="UseGPS"
+            android:summary="@string/settings_use_gps_summary"
+            android:title="@string/settings_use_gps" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/settings_start_tab"
+            android:entryValues="@array/settings_start_tab_values"
+            android:key="StartTab"
+            android:summary="@string/settings_start_tab_summary"
+            android:title="@string/settings_start_tab_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

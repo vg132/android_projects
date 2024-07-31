@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Polisen RSS</string>
+	<string name="FeedSpinner">Feed</string>
+	<string name="CategorySpinner">Region</string>
+	<string name="ProgressDialogText">Loading please wait</string>
+	
+	<string name="FeedListView_ContextMenu_Heading">Feeds</string>
+	
+	<string name="FeedSettings_Name">Name</string>
+	<string name="FeedSettings_Location">Location</string>
+	<string name="FeedSettings_Active">Aktiv</string>
+</resources>

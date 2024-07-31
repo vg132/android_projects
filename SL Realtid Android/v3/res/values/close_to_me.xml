@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="listView">Listvy</string>
+	<string name="mapView">Kartvy</string>
+	<string name="realTime">Realtid</string>
+	<string name="showTimes">Visa tider</string>
+	<string name="searchingLocation">Söker efter stationer...</string>
+	<string name="noStationsFound">Inga stationer nära din position kunde hittas</string>
+	<string name="showTimes">Visa tider</string>
+</resources>

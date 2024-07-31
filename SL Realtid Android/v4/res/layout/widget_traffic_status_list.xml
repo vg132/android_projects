@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="0dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@android:id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80FFFFFF"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:contentDescription="@string/widget_icon_description"
+            android:src="@drawable/ic_logo" />
+
+        <TextView
+            android:id="@android:id/text1"
+            style="@android:style/TextAppearance.DeviceDefault.Large.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/widget_traffic_status_list_heading"
+            android:textIsSelectable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:paddingBottom="2dp" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1"
+        android:background="#f1f1f1"
+        android:listSelector="@android:color/holo_blue_bright"
+        android:paddingBottom="0dp" />
+
+    <TextView
+        android:id="@id/empty_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:paddingBottom="2dp" />
+
+</LinearLayout>

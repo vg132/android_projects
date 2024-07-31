@@ -1,0 +1,5 @@
+<resources>
+	<string name="GoogleAnalyticsTrackerId">UA-4475826-7</string>
+	<string name="apiKeyGoogleMapsRelease">0QugZYPAyTWZzVZLuM0osYBNDSl6ddiDw7L3kpw</string>
+	<string name="apiKeyGoogleMapsDebug">0QugZYPAyTWbkaKilvZQDXMoG4OpkVW2rgO8PfQ</string>
+</resources>

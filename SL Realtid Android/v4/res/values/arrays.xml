@@ -1,0 +1,36 @@
+<resources>
+
+    <string-array name="widget_traffic_status_traffic_types">
+        <item>Tunnelbana</item>
+        <item>Pendeltåg</item>
+        <item>Buss</item>
+        <item>Lokalbana</item>
+        <item>Spårvagn</item>
+        <item>Båt</item>
+    </string-array>
+    
+    <string-array name="widget_departure_transportation_types">
+        <item>Tåg</item>
+        <item>Tunnelbana</item>
+        <item>Lokalbana</item>
+        <item>Buss</item>
+    </string-array>
+
+    <!-- Donation Dialog -->
+    <string-array name="dialog_donation_donations">
+        <item>10 kr</item>
+        <item>15 kr</item>
+        <item>20 kr</item>
+        <item>25 kr</item>
+        <item>30 kr</item>
+    </string-array>
+    <string-array name="settings_start_tab">
+        <item>Favoriter</item>
+        <item>Nära mig</item>
+    </string-array>
+    <string-array name="settings_start_tab_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+</resources>

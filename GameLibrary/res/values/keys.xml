@@ -1,0 +1,6 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="api_key_admob">a152e38826bf21d</string>
+    <string name="api_key_giant_bomb">e70d704b41b9c6e079aaa8446c183ab423cde3be</string>
+
+</resources>

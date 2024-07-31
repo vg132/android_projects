@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:paddingLeft="10px"
+	android:paddingRight="10px">
+	<TextView style="@style/Label.Large"
+		android:id="@+id/PlaceListItem_Name"
+		android:layout_marginTop="5px"
+		android:layout_marginLeft="3px" />
+	<TextView style="@style/Label.Small"
+		android:id="@+id/PlaceListItem_Category"
+		android:layout_marginBottom="5px"
+		android:layout_marginLeft="3px" />
+</LinearLayout>

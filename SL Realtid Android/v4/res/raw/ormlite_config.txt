@@ -1,0 +1,236 @@
+#
+# generated on 2015/04/06 02:57:28
+#
+# --table-start--
+dataClass=com.vgsoftware.android.realtime.model.DepartureSetting
+tableName=departuresetting
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=widgetId
+canBeNull=false
+indexName=departuresetting_widgetId_idx
+# --field-end--
+# --field-start--
+fieldName=siteId
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=autoUpdate
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=transportationType
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=nextExecution
+canBeNull=false
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.vgsoftware.android.realtime.model.Donation
+tableName=Donation
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=Id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=productId
+columnName=ProductId
+columnDefinition=VARCHAR(100)
+# --field-end--
+# --field-start--
+fieldName=status
+columnName=Status
+columnDefinition=VARCHAR(100)
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.vgsoftware.android.realtime.model.Favorite
+tableName=favorite
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=siteId
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=name
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=areaName
+# --field-end--
+# --field-start--
+fieldName=serializedSiteFilter
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.vgsoftware.android.realtime.model.Site
+tableName=SiteCache
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=siteId
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=area
+# --field-end--
+# --field-start--
+fieldName=query
+indexName=SiteCache_query_idx
+# --field-end--
+# --field-start--
+fieldName=validTo
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.vgsoftware.android.realtime.model.SiteFilter
+tableName=sitefilter
+# --table-fields-start--
+# --field-start--
+fieldName=_id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=_siteId
+columnName=siteId
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=_destination
+columnName=destination
+# --field-end--
+# --field-start--
+fieldName=_line
+columnName=line
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.vgsoftware.android.realtime.model.SiteSetting
+tableName=sitesetting
+# --table-fields-start--
+# --field-start--
+fieldName=siteId
+id=true
+unique=true
+indexName=sitesetting_siteId_idx
+# --field-end--
+# --field-start--
+fieldName=selectedTab
+# --field-end--
+# --field-start--
+fieldName=lastSearch
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.vgsoftware.android.realtime.model.Station
+tableName=StationV2
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=siteId
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=alias
+# --field-end--
+# --field-start--
+fieldName=latitude
+# --field-end--
+# --field-start--
+fieldName=longitude
+# --field-end--
+# --field-start--
+fieldName=hasTrain
+# --field-end--
+# --field-start--
+fieldName=hasSubway
+# --field-end--
+# --field-start--
+fieldName=hasTram
+# --field-end--
+# --field-start--
+fieldName=hasBus
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.vgsoftware.android.realtime.model.TrafficStatusSetting
+tableName=trafficstatussetting
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=widgetId
+canBeNull=false
+unique=true
+indexName=trafficstatussetting_widgetId_idx
+# --field-end--
+# --field-start--
+fieldName=showBus
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=showBoat
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=showTrain
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=showSubway
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=showTram
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=showTram2
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=nextExecution
+canBeNull=false
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

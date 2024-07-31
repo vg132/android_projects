@@ -1,0 +1,5 @@
+<resources>
+	<string name="GoogleAdMobUnitId"></string>
+	<string name="GoogleAdMobTestDevice"></string>
+	<string name="SLRealtidKey">ThisCanBeAnything</string>
+</resources>

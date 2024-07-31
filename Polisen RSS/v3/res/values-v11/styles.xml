@@ -1,0 +1,10 @@
+<resources>
+	<style name="AppTheme" parent="android:Theme.Holo.Light" />
+
+	<style name="PrefsTheme" parent="AppTheme">
+		<item name="android:listViewStyle">@style/listViewPrefs</item>
+	</style>
+
+	<style name="listViewPrefs" parent="@android:style/Widget.ListView">
+	</style>
+</resources>

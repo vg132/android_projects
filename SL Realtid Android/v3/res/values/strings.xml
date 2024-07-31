@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<string name="app_name">SL Realtid</string>
+ 	<string name="Type_Select">Välj trafikslag</string>
+ 	<string name="ShowTimes">Sök</string>
+ 	<string name="NoInformationText">Ingen information</string>
+ 	<string name="ProgressDialogText">Söker, vänta...</string>
+ 	<string name="FavoriteSaved">Sökningen sparad</string>
+ 	<string name="FavoriteExists">Sökningen redan sparad</string>
+ 	<string name="StationNotFound">Kan inte hitta stationen.</string>
+ 	<string name="ErrorNoInternetConnection">Kan inte kontakta SL.se\nKontrollera internetanslutningen</string>
+
+ 	<string name="RealTimeInformationText">Välj trafikslag och en station och tryck sedan på sök knappen för att få fram de närmaste avgångarna från vald station.</string>
+ 	<string name="RealTimeInformationHeading">Närmaste avgångar från %s</string>
+ 	<string name="RealTimeInformationError">Ingen information kunde hittas</string>
+ 	<string name="ResultRowExpectedTimeText">Ny beräknad ankomsttid</string>
+ 	<string name="ResultRowDeviationText">Avvikelse</string>
+
+ 	<string name="FavoritesHeading">Sparade favoriter</string>
+ 	<string name="CloseToMeHeading">Stationer nära mig</string>
+ 	<string name="CloseToMeDistancePrefix">Avstånd: </string>
+ 	<string name="TrafficSituationDialogTitle">Trafikläget</string>
+ 	<string name="SiteSearchDialogTitle">Välj station</string>
+ 	<string name="SiteSearchNoArea">[Inget område]</string>
+ 	
+ 	<string name="FavoriteDialogTitle">Favoriter</string>
+ 	<string name="TrafficSituationNoEvents">Inga större störningar</string>
+ 	<string name="FavoriteDialogEditButtonText">Redigera</string>
+ 	<string name="EditFavoriteDialogDeleteButtonText">Ta bort markerade</string>
+ 	<string name="EditFavoriteDialogTitle">Redigera favoriter</string>
+ 	
+ 	<string name="NoStationsFound">Kunde inte hitta några stationer.</string>
+ 	<string name="CommonOk">OK</string>
+ 	
+ 	<string name="stationTextView.hint">Station</string>
+
+ 	<string name="ChangesDialogTitle">Nyheter</string>
+ 	<string name="ChangesDialogMessage">3.2.7: Uppdaterat API för störningsinformation.
+\n\n3.2.6: Uppdaterat till nya API anropp. Ursäkta avbrottet som har varit.
+\n\n3.2.4: Sju nya stationer på tvärbanan. Dock inga kordinater för dessa stationer så de kommer inte att visas under \"Nära mig\".
+\n\n3.2.3: Bättre inlägning av tider. Några små fixar.
+\n\n3.2.2: Tre nya pendeltågsstationer, Knivsta, Arlanda och Uppsala.
+\n\n3.2: Visar fler avgångar för alla trafikslag utom Tunnelbana. Ny ikon.
+\n\n3.1.4: Förändrat trafikslagen, under \"Lokalbana\" finns nu Tvärbanan, Roslagsbanan, Lidingöbanan, Nockebybanan och Saltsjöbanan. Spårväg City finns under trafikslaget \"Spårvagn\"
+\n\n3.1.3: Man kan nu se de närmaste (och alla andra) stationer på en karta, välj \"Nära mig\" och därefter i menyn \"Kartvy\".
+\n\n3.1.2: Förbättrad felhantering. Skapat Facebook sida för SL Realtid.
+\n\n3.1.1: Förbättrad sökning med blandade gemener och versaler. Fixat bug som förhindrade Nära mig att starta.
+\n\n3.1.0: Ny action bar för sökning, ger mer yta för sökresultatet. Små design fixar för nära mig listan. Sökning på stationer där det bara finns ett trafikslag ger resultat även fast fel trafikslag är valt. Flera småfixar. 
+\n\n3.0.9: Gått tillbaka med en av nyheterna i 3.0.5, sökning med blandade gemener och versaler, den lösning som var implementerad verkar inte fungera i vissa telefoner.
+\n\n3.0.8: Fix för bug i förra versionen som förhindrade sökning.
+\n\n3.0.7: Fix för busssökningar, när man väljer en station i resultatlistan sker sökningen direkt igen.
+\n\n3.0.6: Inget nytt förutom lite information, favoriter som är sparade i tidigare versioner av SL Realtid (före 3.0.5) fungerar inte längre utan måste skapas igen, detta pga en bug i tidigare versioner av SL Realtid. 
+\n\n3.0.5: Lagt till reklam. För att bli av med reklamen kan du betala för SL Realtid. Välj Köp knappen i menyn.
+\nFörbättrad sökning av stationer, inte längre känslig för gemener och versaler.
+\nFlera små förbättringar i gränssnittet för framförallt telefoner med mindre skärmar.
+\n\n3.0.4: Optimeringar för telefoner med mindre skärmar, t.ex. Xperia X10 Mini.
+\n\n3.0.3: Ny favoritlista, fix för krash när man söker efter bussar.
+\n\n3.0.2: Fix för krash när man ändrade förvald transporttyp.
+\n\n3.0: Stöd för Bussar och Spårväg City. Lagt till en ny funktion så att om du gillar applikationen kan du betala en liten summa för att stödja utvecklingen av SL Realtid.
+ 	</string>
+</resources>

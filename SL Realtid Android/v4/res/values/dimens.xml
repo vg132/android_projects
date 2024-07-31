@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="actionBarHeight">43dip</dimen>
+	<dimen name="textSizeSmall">14sp</dimen>
+	<dimen name="textSizeMedium">18sp</dimen>
+	<dimen name="textSizeLarge">22sp</dimen>
+	<dimen name="transportationTypeButtonHeight">39dip</dimen>
+	<dimen name="widget_margin">5dp</dimen>
+</resources>

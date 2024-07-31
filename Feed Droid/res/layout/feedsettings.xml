@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/MainRelativeLayout"
+	android:paddingLeft="10px"
+	android:paddingRight="10px"
+	android:background="#ffffff">
+	<LinearLayout android:id="@+id/TopLinearLayout" 
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView style="@style/Label.Large"
+			android:text="Feed Settings" />
+		<TextView style="@style/Label"
+			android:text="@string/FeedSettings_Name" />
+		<EditText android:id="@+id/NameEditText"
+			android:layout_width="fill_parent"
+			android:inputType="textCapSentences"
+			android:hint="Feed name"
+			android:maxLength="30"
+			android:layout_height="wrap_content" />
+		<TextView style="@style/Label"
+			android:text="@string/FeedSettings_Location" />
+		<EditText android:id="@+id/UrlEditText"
+			android:layout_width="fill_parent"
+			android:inputType="textUri"
+			android:hint="Feed url"
+			android:maxLength="255"
+			android:layout_height="wrap_content" />
+		<CheckBox style="@style/Label"
+			android:id="@+id/ActiveCheckBox"
+			android:checked="true"
+			android:text="@string/FeedSettings_Active" />
+	</LinearLayout>
+	<TableLayout android:layout_width="fill_parent"
+		android:stretchColumns="0,1"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignBottom="@+id/MainRelativeLayout">
+		<TableRow>
+			<Button android:id="@+id/SaveButton"
+				android:text="@string/Common_Save" 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<Button android:id="@+id/CancelButton"
+				android:text="@string/Common_Cancel"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+		</TableRow>
+	</TableLayout>
+</RelativeLayout>

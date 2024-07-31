@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="MenuItemTrafficSituation">Trafikläget</string>
+	<string name="MenuItemRealTimeView">Realtid</string>
+	<string name="MenuItemCloseToMeView">Nära mig</string>
+	<string name="MenuItemFavoriteView">Favoriter</string>
+
+	<string name="MenuItemPreferences">Inställningar</string>
+	<string name="MenuItemSaveSearch">Spara</string>
+	<string name="MenuItemAbout">Om...</string>
+
+	<string name="MenuItemDeleteFavorite">Ta bort</string>
+	<string name="MenuItemLoadFavorite">Ladda</string>
+
+	<string name="MenuHeading">Val</string>
+	<string name="MenuLoadFavorite">Visa</string>
+	<string name="MenuDeleteFavorite">Ta bort</string>	
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+	<string name="Menu_FeedDroid_Preferences">Settings</string>
+	<string name="Menu_FeedDroid_FeedManager">Feed manager</string>
+	<string name="Menu_FeedManager_AddFeed">Add feed</string>
+	<string name="Menu_FeedDroid_ForceUpdate">Refresh</string>
+	<string name="Menu_FeedDroid_MarkAllRead">Mark all as read</string>
+</resources>

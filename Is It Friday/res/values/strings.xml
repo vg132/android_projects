@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Is It Friday?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Almost">Almost there!</string>
+    <string name="NotEvenClose">Sorry, not even close :(</string>
+    <string name="Finally">It\'s true! This is day 5! FRIDAY!</string>
+    <string name="Finally2">YES!</string>
+    <string name="Finally3">Yes sir, it\'s that time of week again!</string>
+    <string name="Finally4">FRIDAY!!!</string>
+    <string name="AlmostOver">It\'s almost over now, make the most of it!</string>
+    <string name="ItsMonday">It\'s MONDAY!</string>
+    <string name="Finally5">You know what day it is, I don\'t have to tell you!</string>
+</resources>

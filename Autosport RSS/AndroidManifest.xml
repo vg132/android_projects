@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.vgsoftware.android.autosportrss.ui"
+	android:versionCode="3"
+	android:versionName="2.01">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".AutosportRSS" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:label="Preferences" android:name=".Preferences" />
+		<activity android:label="Feed Manager" android:name=".FeedManager" />
+		<activity android:label="Feed Settings" android:name=".FeedSettings" />
+		<service android:enabled="true" android:name="com.vgsoftware.android.autosportrss.service.UpdateService" android:label="Feed Droid Update Service"/>
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-sdk android:minSdkVersion="7" />
+</manifest> 

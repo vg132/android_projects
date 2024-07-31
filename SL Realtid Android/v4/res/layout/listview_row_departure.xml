@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@android:id/content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_card" >
+
+        <TextView
+            android:id="@id/destination"
+            style="@style/RowLabel.Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@id/time_to_departure"
+            style="@style/RowLabel.Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/destination"
+            android:layout_alignParentRight="true"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@id/departure_time_heading"
+            style="@style/RowLabel.SubHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/destination"
+            android:layout_below="@id/destination"
+            android:text="@string/listview_row_departure_time"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@id/departure_time"
+            style="@style/RowLabel.SubHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/departure_time_heading"
+            android:layout_alignParentRight="true"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@id/delay_heading"
+            style="@style/RowLabel.SubHeading.Delay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/departure_time_heading"
+            android:layout_below="@id/departure_time_heading"
+            android:text="@string/listview_row_departure_deviation"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@id/delay_departure_time"
+            style="@style/RowLabel.SubHeading.Delay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/delay_heading"
+            android:layout_alignParentRight="true"
+            android:textIsSelectable="false" />
+
+        <Button
+            android:id="@android:id/button1"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/delay_heading"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/delay_heading"
+            android:visibility="gone"
+            android:text="@string/listview_row_departure_filter" />
+    </RelativeLayout>
+
+</FrameLayout>

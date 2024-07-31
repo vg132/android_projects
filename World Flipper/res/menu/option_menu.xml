@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/MenuItemMyLocation"
+		android:icon="@android:drawable/ic_menu_mylocation"
+		android:title="@string/MyLocationMenuText" />
+
+	<item android:id="@+id/MenuItemFlipWorld"
+		android:icon="@android:drawable/ic_menu_rotate"
+		android:title="@string/FlipWorldMenuText" />
+
+	<item android:id="@+id/MenuItemFlipLatitudeId"
+		android:icon="@drawable/flip_latitude"
+		android:title="@string/FlipWorldLatitudeMenuText" />
+
+	<item android:id="@+id/MenuItemFLipLongitudeId"
+		android:icon="@drawable/flip_longitude"
+		android:title="@string/FlipWorldLongitudeMenuText" />
+</menu>

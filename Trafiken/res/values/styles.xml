@@ -1,0 +1,30 @@
+<resources>
+	<style name="AppTheme" parent="android:Theme.Light" />
+
+	<style name="TextView" parent="@android:style/TextAppearance.Small">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">@dimen/padding_medium</item>
+		<item name="android:layout_marginRight">@dimen/padding_medium</item>
+	</style>
+	
+	<style name="TextView.Micro" parent="TextView">
+		<item name="android:textSize">@dimen/font_size_micro</item>	
+	</style>
+	
+	<style name="TextView.Small" parent="TextView">
+		<item name="android:textSize">@dimen/font_size_small</item>
+	</style>
+
+	<style name="TextView.Medium" parent="TextView">
+		<item name="android:textSize">@dimen/font_size_medium</item>
+	</style>
+	
+	<style name="TextView.Large" parent="TextView">
+		<item name="android:textSize">@dimen/font_size_large</item>
+	</style>
+
+	<style name="TextView.ReadMore" parent="TextView.Small">
+		<item name="android:textColor">#33B5E5</item>
+	</style>
+</resources>

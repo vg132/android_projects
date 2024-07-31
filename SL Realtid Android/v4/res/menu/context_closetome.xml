@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@id/menu_view_times"
+        android:title="@string/menu_view_times"/>
+    <item
+        android:id="@id/menu_view_on_map"
+        android:title="@string/menu_view_on_map"/>
+
+</menu>

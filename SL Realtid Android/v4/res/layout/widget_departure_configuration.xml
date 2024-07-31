@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:text="@string/widget_departure_configuration_heading"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="@string/widget_departure_configuration_station"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <AutoCompleteTextView
+        android:id="@android:id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="2"
+        android:paddingLeft="5dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="@string/widget_departure_configuration_transportation_type"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <Spinner
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <CheckedTextView
+        android:id="@android:id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:paddingLeft="5dp"
+        android:text="@string/widget_departure_configuration_autoupdate"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        android:textIsSelectable="false" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/widget_departure_information" />
+
+    <Button
+        android:id="@android:id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@android:string/ok" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/MenuItemGroupViews">
+		<item android:id="@id/realTimeView"
+			android:icon="@drawable/ic_action_search"
+			android:title="@string/realTime" />
+		<item android:id="@id/listView"
+			android:icon="@drawable/ic_menu_list"
+			android:title="@string/listView" />
+		<item android:id="@id/mapView"
+			android:icon="@drawable/ic_menu_mapmode"
+			android:title="@string/mapView" />
+	</group>
+</menu>

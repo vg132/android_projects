@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout	android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="1.0"
+		android:background="@android:color/white">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<ScrollView android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:fillViewport="true">
+				<com.vgsoftware.android.realtime.ui.controls.ActionBar android:id="@id/actionBar"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</ScrollView>
+		</LinearLayout>
+		<LinearLayout android:background="@android:color/white"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:padding="5sp">
+			<TextView android:id="@id/textView"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/RealTimeInformationText"
+				android:textSize="14sp"
+				android:textStyle="normal"
+				android:padding="3dip"
+				android:textColor="@android:color/black"
+				android:background="@android:color/white" />
+			<ListView android:id="@id/listView"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent" />
+		</LinearLayout>
+	</LinearLayout>
+	<com.google.ads.AdView android:id="@id/adView"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		ads:loadAdOnCreate="true"
+		ads:adSize="SMART_BANNER"
+		ads:adUnitId="a14edd214d9c14c" />
+</LinearLayout>
